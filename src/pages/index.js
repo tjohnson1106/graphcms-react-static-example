@@ -1,8 +1,11 @@
-import React from 'react'
-import { withSiteData } from 'react-static'
+import React from "react";
+import { withRouteData } from "react-static";
 
-export default withSiteData(() => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>Welcome to React-Static</h1>
-  </div>
-))
+export default withRouteData(
+  ({ posts }) =>
+    console.log({ posts }) || (
+      <div style={{ textAlign: "center" }}>
+        <h1>Welcome to React-Static</h1>
+      </div>
+    )
+);
