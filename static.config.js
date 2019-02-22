@@ -35,10 +35,10 @@ export default {
     title: "React Static"
   }),
   getRoutes: async () => {
-    await request();
+    const { posts, authors } = await request(GRAPHCMS_ENDPOINT, query);
     return [
       {
-        path: "/blog",
+        path: "/",
         getData: () => ({
           posts
         }),
