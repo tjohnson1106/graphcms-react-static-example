@@ -6,7 +6,7 @@ export default withRouteData(({ posts }) => (
   <div className="container">
     {posts.map((post) => (
       <Link key={post.id} to={`/post/${post.id}`} className="card">
-        <div>
+        <div style={{ paddingRight: "1em" }}>
           <img
             alt={post.title}
             className="card-img"
@@ -17,8 +17,12 @@ export default withRouteData(({ posts }) => (
         </div>
 
         <div>
-          <h3>{post.title}</h3>
-          <p>{post.author.name}</p>
+          <h3 style={{ margin: 0 }}>{post.title}</h3>
+          <p style={{ display: "flex" }}>
+            <img src="https://icon.now.sh/face/2386ea" />
+
+            {post.author.name}
+          </p>
 
           {post.tags.map((tag) => (
             <span className="card-tag" key={tag}>
