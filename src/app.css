@@ -45,6 +45,16 @@ a {
   border-radius: 50px;
 }
 
+.placeholder {
+  height: 366px;
+  background-color: #eee;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
 img {
   max-width: 100%;
 }
