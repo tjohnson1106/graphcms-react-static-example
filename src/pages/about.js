@@ -17,7 +17,7 @@ export default withRouteData(({ authors }) => (
           <h2>By {author.name}</h2>
         </div>
 
-        <p>{author.bibliography}</p>
+        <p style={{ textAlign: "center" }}>{author.bibliography}</p>
       </div>
     ))}
   </div>
