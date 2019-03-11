@@ -32,7 +32,7 @@ const query = `
 
 export default {
   getSiteData: () => ({
-    title: "React Static"
+    title: "Blog: Title Pending"
   }),
   getRoutes: async () => {
     const { posts, authors } = await request(GRAPHCMS_ENDPOINT, query);
