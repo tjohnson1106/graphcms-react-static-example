@@ -109,7 +109,14 @@ header {
   margin-right: 16px;
 }
 
-.header-link .active {
+.header-link {
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+.active {
+  font-size: 18px;
+  margin-right: 16px;
   font-weight: bold;
   text-decoration: underline;
 }
