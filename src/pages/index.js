@@ -17,8 +17,8 @@ export default withRouteData(({ posts }) => (
         </div>
 
         <div>
-          <h3 style={{ margin: 0 }}>{post.title}</h3>
-          <p style={{ display: "flex" }}>
+          <h3 className="preview">{post.title}</h3>
+          <p className="icon-text" style={{ display: "flex" }}>
             <img src="https://icon.now.sh/face/2386ea" />
 
             {post.author.name}

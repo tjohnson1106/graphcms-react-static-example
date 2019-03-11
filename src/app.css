@@ -5,6 +5,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background-color: #030303;
 }
 
 a {
@@ -39,10 +40,20 @@ a {
 .card-tag {
   margin-right: 0.5em;
   /* change color */
-  color: white;
-  background: mediumaquamarine;
+  color: #ffffff;
+  background: #ff561e;
   padding: 0.3em 0.5em;
   border-radius: 50px;
+}
+
+.preview {
+  margin: 0;
+  color: #ffffff;
+}
+
+.icon-text {
+  display: flex;
+  color: #ffffff;
 }
 
 /* Post */
@@ -67,7 +78,7 @@ article {
   height: 150px;
   width: auto;
   border-radius: 10px;
-  border: 5px solid rgb(247, 129, 115);
+  border: 5px solid #ff561e;
 }
 
 .about-author {
@@ -85,6 +96,7 @@ header {
 .header-h1 {
   padding-bottom: 2px;
   font-weight: 100;
+  color: #ffffff;
 }
 
 .header-nav {
@@ -104,17 +116,6 @@ header {
 
 img {
   max-width: 100%;
-}
-
-nav {
-  width: 100%;
-  background: #108db8;
-}
-
-nav a {
-  color: white;
-  padding: 1rem;
-  display: inline-block;
 }
 
 .content {
