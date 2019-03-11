@@ -1,22 +1,19 @@
-import React from 'react'
-import { Root, Routes } from 'react-static'
-import { Link } from '@reach/router'
+import React from "react";
+import { Root, Routes } from "react-static";
 
-import './app.css'
+import Header from "./components/Header";
+
+import "./app.css";
 
 function App() {
   return (
     <Root>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-      </nav>
+      <Header />
       <div className="content">
         <Routes />
       </div>
     </Root>
-  )
+  );
 }
 
-export default App
+export default App;
