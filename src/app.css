@@ -33,7 +33,7 @@ a {
 }
 
 .card-img {
-  display: block;
+  display: flex;
   height: 100%;
 }
 
@@ -127,4 +127,5 @@ img {
 
 .content {
   padding: 1rem;
+  color: #ffffff;
 }
