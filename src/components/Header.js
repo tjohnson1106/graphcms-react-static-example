@@ -12,7 +12,6 @@ const isActive = ({ isCurrent }) => {
 
 export default withSiteData(({ title }) => (
   <header className="header">
-    <h1 className="header-h1">{title}</h1>
     <nav className="header-name">
       <Link getProps={isActive} className="header-link" to="/">
         Home
@@ -20,6 +19,7 @@ export default withSiteData(({ title }) => (
       <Link getProps={isActive} className="header-link" to="/about">
         About
       </Link>
+      <h1 className="header-h1">{title}</h1>
     </nav>
   </header>
 ));

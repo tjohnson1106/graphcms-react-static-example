@@ -14,15 +14,16 @@ a {
 }
 
 /* Home */
+
 .container {
-  max-width: 1960px;
+  max-width: 960;
   margin: 0 auto;
 }
 
 .card {
   display: flex;
   align-items: center;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   border: 1px solid #eee;
   overflow: hidden;
   border-radius: 5px;
@@ -33,12 +34,12 @@ a {
 }
 
 .card-img {
-  display: block;
-  height: 100%;
+  display: flex;
 }
 
 .card-tag {
   margin-right: 0.5em;
+  /* change color */
   color: #ffffff;
   background: #ff561e;
   padding: 0.3em 0.5em;
@@ -56,6 +57,7 @@ a {
 }
 
 /* Post */
+
 .placeholder {
   height: 366px;
   background-color: #eee;
@@ -67,35 +69,46 @@ article {
 }
 
 /* About */
+
 .about-header {
-  text-align: right;
+  text-align: center;
 }
+
 .about-avatar {
   height: 150px;
   width: auto;
   border-radius: 10px;
   border: 5px solid #ff561e;
 }
+
 .about-author {
   margin-bottom: 72px;
 }
 
 /* Header */
+
 header {
   padding: 24px 32px;
   margin-bottom: 32px;
-  text-align: right;
-}
-.header-h1 {
   text-align: center;
+}
+
+.header-h1 {
   padding-bottom: 2px;
   font-weight: 100;
   color: #ffffff;
 }
+
 .header-nav {
   max-width: 650px;
   margin: 0 auto;
 }
+
+.header-link {
+  font-size: 18px;
+  margin-right: 16px;
+}
+
 .header-link {
   font-size: 18px;
   margin-right: 16px;
